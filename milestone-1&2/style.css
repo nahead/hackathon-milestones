@@ -1,27 +1,27 @@
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffffff;
+    background-color: gray;
     margin: 0;
     padding: 150px;
 }
 
 .container {
     display: flex;
-    background-color: #f6f5fa;
+    background-color: #dfdced;
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 0 0 20px #1704e7ac}
+    box-shadow: 0 0 20px #0f0e19ac}
 
 /* Left Section Styling */
 .left-section {
-    background-color:#1704e7ac;
+    background-color:#000000;
     color: #EEEEEE;
     padding: 20px;
     width: 35%;
     text-align: center;
-    border-right: 5px solid #07f491;
+    border-right: 5px solid goldenrod;
     margin-right: 25px;
 }
 
@@ -30,8 +30,8 @@ body {
     height: 160px;
     margin-top: 10%;
     border-radius: 50%;
-    border: 2px solid #0d13d8;
-    box-shadow: 0 0 20px rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    /* box-shadow: 0 0 20px rgb(255, 255, 255); */
     margin-bottom: 20px;
 }
 
@@ -48,7 +48,7 @@ h2 {
     margin: 20px 0 10px;
     color: #09061f;
     border-radius: 10px;
-    box-shadow: 0 0 19px #09091e;
+    box-shadow: 0 0 19px #ffffff;
     margin-top: 5%;
     margin-bottom: 5%;
 
@@ -68,6 +68,7 @@ ul li {
 .right-section {
     padding: 20px;
     width: 65%;
+    
   
 }
 
@@ -78,10 +79,11 @@ button {
     cursor: pointer;
     margin-top: 10px;
     font-size: 18px;
-    background-color: #7c71ee;
+    background-color: #0c0c0f;
+    color: white;
 }
 
 button:hover {
-    background-color: #321467;
+    background-color: #000000;
     color: aliceblue;
 }
